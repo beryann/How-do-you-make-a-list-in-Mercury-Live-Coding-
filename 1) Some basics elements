@@ -32,31 +32,4 @@ Let's examine them one by one...
 Starting with tutorial 401, you will find (and also in the official documentation) the functions that allow you to vary these lists in different ways.
 
 
-1) spread 
-The first is "spread," with this example:
 
-`list melody spread(10 0 100)`
-`list length spread(7 500 20)`
-
-which gives this:
-
-`[0 10 20 30 40 50 60 70 80 90]`
-`[500 431 362 294 225 157 88]`
-
-Explanation for the first list:
-`Melody` is a list with 5 ascending items distributed equally from 0 to 100 (except for 100!).
-In the second example, we still have a distribution of data, but in a descending direction (except for the last value!).
-
-2) spreadInclusive 
-There is a variant of the precedent function:
-
-"spreadInclusive"
-This function allows you to include the last item in the list.
-
-For example, in tutorial 402, you'll find these two examples:
-`list melody spreadInclusive(5 0 12)`
-`list length spreadInclusive(7 500 20)`
-with the expected result where 12 and 20 correctly appear in the evaluation:
-
-`[0 3 6 9 12]`
-`[500 420 340 260 180 100 20]`

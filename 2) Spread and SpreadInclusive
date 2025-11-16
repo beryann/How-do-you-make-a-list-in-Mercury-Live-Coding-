@@ -1,4 +1,4 @@
-1) spread 
+1) spread (or spreadF for floats)
 The first is "spread," with this example:
 
 `list melody spread(10 0 100)`
@@ -13,7 +13,7 @@ Explanation for the first list:
 `Melody` is a list with 5 ascending items distributed equally from 0 to 100 (except for 100!).
 In the second example, we still have a distribution of data, but in a descending direction (except for the last value!).
 
-2) spreadInclusive 
+2) spreadInclusive ( no spreadInclusiveF) 
 There is a variant of the precedent function:
 
 "spreadInclusive"

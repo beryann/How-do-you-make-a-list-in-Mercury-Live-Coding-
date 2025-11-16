@@ -1,0 +1,13 @@
+In the 404 tutorial, we find the "fill" function, which is very useful for creating a list with data that repeats in a very precise way.
+
+For example, we find the following:
+
+`list melody fill(0 4 7 2 3 4 12 2 9 4 3 2 2 2)`
+`print melody`
+
+with the following result:
+
+`[0 0 0 0 7 7 3 3 3 3 12 12 9 9 9 9 3 3 2 2]`
+
+In the list, we find two values ​​each time. The first is the value to be repeated, and the second is simply the number of repetitions! 
+The pairs of values ​​are then chained together in the list by simple juxtaposition, as in the example above.

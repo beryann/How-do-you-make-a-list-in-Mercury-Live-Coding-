@@ -1,1 +1,40 @@
+1) Euclidean rhythm
 
+
+
+
+
+
+2) Hexadecimal rhythm 
+
+I think that the only thing you need to understand is to see this spreadsheet: 
+
+Hexidecimal sytem	binary system
+0	          0000
+1	          0001
+2	          0010
+3	          0011
+4	          0100
+5	          0101
+6	          0110
+7	          0111
+8	          1000
+9	          1001
+A	          1010
+B	          1011
+C	          1100
+D	          1101
+E	          1110
+F	          1111
+
+So, in the tutorial 406, you can find this patch:
+list rhythm1 hex('f02c')
+list rhythm2 hex('094a')
+print rhythm1 rhythm2
+
+The result is of course this one: 
+
+[1 1 1 1 0 0 0 0 0 0 1 0 1 1 0 0] since 'f' is'0000', '0' is '0000', '2'is '0010' etc 
+[0 0 0 0 1 0 0 1 0 1 0 0 1 0 1 0]
+
+And if '0' there is no sound and with a '1' you can here it! 

@@ -1,9 +1,21 @@
 1) Euclidean rhythm
 
+An euclidean list returns a list of '0' and '1'. So with '0'you hear nothing and with '1' you hear somthing: a sound/a sample which creates a rhythm! 
+For instance, in the tutorial "405: Euclidean Rhythm", you find this patch: 
 
+list rhythm1 euclid(16 5)
+list rhythm2 euclid(8 5)
+print rhythm1 rhythm2
 
+new sample bongo time(1/16) play(rhythm1)
+new sample bongo_lo time(1/16) play(rhythm2) 
 
+So you have got that result: 
 
+[1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0] you have 16 numbers and an evenly (this is important!) distribution of 1 for the bongo time(1/16)
+[1 0 1 0 1 1 0 1] you have 8 numbers and an evenly (this is important!) distribution of 1 for the bongo_lo time(1/16) 
+
+The 2 lists are not the same length, which creates complex and interesting rhythms!
 
 2) Hexadecimal rhythm 
 
